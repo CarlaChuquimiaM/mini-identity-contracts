@@ -9,7 +9,6 @@ contract IdentityRegistry {
     constructor() {
         owner = msg.sender;
     }
-
     //funcion
     function getOwner() public view returns (address) {
         return owner;
@@ -22,7 +21,7 @@ contract IdentityRegistry {
     }
 
     // function getIdentity(address user) public view returns (bytes32) {
-    //     //Consulta una identidad
+        //Consulta una identidad
     // }
     mapping(address => bytes32) public identidades;
 

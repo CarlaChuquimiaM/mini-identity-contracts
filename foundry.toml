@@ -3,6 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 solc_version = "0.8.20"  
+ignored_error_codes = [2018]
 remappings = [
     "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"
 ]

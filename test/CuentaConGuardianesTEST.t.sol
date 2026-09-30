@@ -18,11 +18,11 @@ contract PruebaCuentaConGuardianes is Test {
     
     // === TESTS UNITARIOS ===
     
-    function test_ConstructorAsignaOwner() public {
+    function test_ConstructorAsignaOwner() public view {
         assertEq(cuenta.owner(), owner);
     }
     
-    function test_ConstructorAsignaQuorum() public {
+    function test_ConstructorAsignaQuorum() public view{
         assertEq(cuenta.quorum(), 2);
     }
     

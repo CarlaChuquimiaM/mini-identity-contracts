@@ -33,7 +33,7 @@ contract PruebaCuentaInteligente is Test {
     }
 
     // Test 1: El constructor asigna el owner correctamente
-    function test_ConstructorAsignaOwner() public {
+    function test_ConstructorAsignaOwner() public view{
         assertEq(cuenta.owner(), owner);
     }
 
